@@ -1,5 +1,3 @@
-# import pandas as pd
-student = []
-student1 =[]
-student2 =[]
-student3 =[]
+from tkinter import *
+from tkinter import ttk
+from PIL import Image, ImageTkm 
