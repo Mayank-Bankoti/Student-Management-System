@@ -1,15 +1,5 @@
-from tkinter import *
-from tkinter import ttk
-from PIL import Image, ImageTk
-
-class Student:
-    def __init__(self,root):
-       self.root = root
-       self.root.geometry("1530x790+0+0")
-       self.root.title("STUDENT MANAGEMENT SYSTEM") 
-
-
-if __name__ == "__main__":
-    root = Tk()
-    obj = Student(root)
-    root.mainloop()
+n = int(input())
+arr = map(int, input().split())
+arr2 = list(set(arr))
+arr2.sort()
+print(arr2[-2])     
